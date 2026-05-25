@@ -1,0 +1,14 @@
+{
+  "name": "ph-psgc-barangays",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Complete PSGC barangay dataset for the Philippines (42,046 entries) with lookup helpers for JS and PHP. Companion to ph-dev-utils.",
+  "workspaces": [
+    "packages/js"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@ph-dev-utils/psgc-barangays",
+    "test": "npm run test --workspace=@ph-dev-utils/psgc-barangays"
+  },
+  "license": "MIT"
+}

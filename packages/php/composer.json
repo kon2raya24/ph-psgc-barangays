@@ -1,0 +1,23 @@
+{
+  "name": "phdevutils/psgc-barangays",
+  "description": "Complete PSGC barangay dataset for the Philippines (PSA Q4 2024, 42,046 entries) with zero-dependency lookup helpers. Joins to phdevutils/core cities/municipalities.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["philippines", "filipino", "psgc", "barangay", "barangays", "address", "psa"],
+  "require": {
+    "php": ">=8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhDevUtils\\PsgcBarangays\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhDevUtils\\PsgcBarangays\\Tests\\": "tests/"
+    }
+  }
+}

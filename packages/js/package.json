@@ -1,0 +1,40 @@
+{
+  "name": "@ph-dev-utils/psgc-barangays",
+  "version": "0.1.0",
+  "description": "Complete PSGC barangay dataset for the Philippines (PSA Q4 2024, 42,046 entries) with zero-dependency lookup helpers. Joins to @ph-dev-utils/core cities/municipalities.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "philippines",
+    "filipino",
+    "psgc",
+    "barangay",
+    "barangays",
+    "address",
+    "psa"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.5.0"
+  }
+}
